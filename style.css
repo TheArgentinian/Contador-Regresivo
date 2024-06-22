@@ -28,6 +28,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url(images/image-from-rawpixel-id-2229794-jpeg.jpg);
 }
 
 h1 {
