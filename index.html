@@ -2,13 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/css/flipdown/flipdown.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="public/js/main.js"></script>
+    <script type="text/javascript" src="public/js/flipdown/flipdown.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Pronto...</title>
   </head>
   <body>
+    <div>
     <h1> Pronto lanzaremos nuestra nueva pagina </h1>
+    </div>   
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="flipdown" class="flipdown"></div>
+    <button onclick="myFunction()">Toggle dark mode</button>
+    <footer class="social-links">
+      <a href="https://www.facebook.com" class="facebook" ><img alt="link a facebook" src="images/icon-facebook.svg"></a href="">
+      <a href="https://www.instagram.com" class="instagram"><img alt="link a instagram" src="images/icon-instagram.svg"></a href="">
+      <a href="https://www.pinterest.com" class="pinterest"><img alt="link a pinterest" src="images/icon-pinterest.svg"></a href="">
+    </footer>
   </body>
 </html>
