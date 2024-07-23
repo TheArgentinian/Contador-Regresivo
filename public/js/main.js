@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', () => {
   var threeDaysFromNow = (new Date().getTime() / 1000) + (86400 * 3) + 1;
 
   // Set up FlipDown
-  var flipdown = new FlipDown(threeDaysFromNow)
+  var flipdown = new FlipDown(threeDaysFromNow, {
+    theme: "light",
+  })
 
     // Start the countdown
     .start()
@@ -23,10 +25,3 @@ document.addEventListener('DOMContentLoaded', () => {
   }, 5000); */
 
 });
-
-function myFunction() {
-  let body = document.body;
-    body.classList.toggle('light-theme');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-dark');
-    body.querySelector('#flipdown').classList.toggle('flipdown__theme-light');
-}
